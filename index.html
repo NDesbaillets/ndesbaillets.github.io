@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html>
 <body>
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    var firebaseConfig = {
+      // ...
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+	
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 </body>
+<h1></h1>
 <form action="/">
     <legend>Nouvelle entrée</legend>
 	<br></br>
     <label for="Nom">Nom: </label>
     <input type="text" value="Nom" name="Nom" />
+	<br></br>
 	<label for="Prénom">Prénom: </label>
     <input type="text" value="Prénom" name="Prénom" />
+<br></br>
     <label for="email">Email: </label>
     <input type="email" value="Email" name="Email" />
-	<label>Contact: 
+<br></br>
+	<label>J'accepte d'être recontacter par la suite par le CCLO: 
     <input type="checkbox" value="checkbox1" name="button" /></label>
-	<label>Tournois: 
+<br></br>
+	<label>Je souhaiterai prendre part à des tournois pour débutants: 
     <input type="checkbox" value="checkbox2" name="button2" /></label>   
 </form>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBS66dHeJeCFircANIbUPf93BZvkwdvgxM",
+    authDomain: "cclo-e-mails.firebaseapp.com",
+    databaseURL: "https://cclo-e-mails.firebaseio.com",
+    projectId: "cclo-e-mails",
+    storageBucket: "cclo-e-mails.appspot.com",
+    messagingSenderId: "241196608484"
+  };
+  firebase.initializeApp(config);
+</script>
+
 </html>
