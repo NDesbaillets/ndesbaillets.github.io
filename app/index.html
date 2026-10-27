@@ -9,7 +9,7 @@
   <meta name="description" content="The Hive · Onconic">
   <meta name="robots" content="noindex">
   <link rel="alternate" hreflang="fr" href="https://onconic.ch/fr/app/">
-  <link rel="icon" href="/assets/img/logo-placeholder.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/img/mark-on-light.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/onconic.css">
   <script src="/assets/js/site.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -19,7 +19,7 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="/"><img src="/assets/img/logo-placeholder.svg" alt="">Onconic</a>
+      <a class="brand" href="/"><img class="mark" src="/assets/img/mark-on-light.svg" alt="" width="40" height="35"><img class="wordmark" src="/assets/img/wordmark-on-light.svg" alt="Onconic" width="116" height="16"></a>
       <button class="nav-toggle" aria-controls="nav" aria-expanded="false">Menu</button>
       <nav class="nav" id="nav">
         <a href="/">Home</a>
@@ -36,11 +36,11 @@
       <div class="container">
         <div class="app-bar">
           <h1>Welcome, <span id="user-name"></span></h1>
-          <button class="btn btn-ghost" id="logout" type="button">Sign out</button>
+          <button class="btn btn-outline" id="logout" type="button">Sign out</button>
         </div>
         <div class="grid-3">
           <article class="card cell" data-roles="clinician assistant" hidden>
-            <span class="badge">Learn</span>
+            <span class="eyebrow">Learn</span>
             <h2>Training</h2>
             <ul>
               <li>Guidelines (ESMO, NCCN, ASCO) by tumor</li>
@@ -51,7 +51,7 @@
             <p class="muted">Coming soon</p>
           </article>
           <article class="card cell" data-roles="clinician" hidden>
-            <span class="badge">Tools</span>
+            <span class="eyebrow">Tools</span>
             <h2>Physicians</h2>
             <ul>
               <li>Anonymised medical letter generator</li>
@@ -60,7 +60,7 @@
             <p class="muted">Coming soon</p>
           </article>
           <article class="card cell" data-roles="assistant" hidden>
-            <span class="badge">Tools</span>
+            <span class="eyebrow">Tools</span>
             <h2>Assistants &amp; secretaries</h2>
             <ul>
               <li>Treatment duration and calendar</li>
@@ -75,6 +75,7 @@
   <footer class="site-footer">
     <div class="container">
       <span>© 2026 Onconic · Lausanne, Switzerland</span>
+      <span class="motto">ONCOLOGY MADE ICONIC</span>
       <a href="mailto:contact@onconic.ch">contact@onconic.ch</a>
     </div>
   </footer>

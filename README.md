@@ -42,9 +42,11 @@ CNAME                  domaine onconic.ch
 
 *Authentication* > *Users* > *Invite user*. Puis *Table Editor* > `profiles` : passer `role` de `member` à `clinician`, `assistant` ou `admin`. Ton propre compte doit être `admin`.
 
-## Remplacer les éléments provisoires
+## Charte graphique
 
-- Logo : remplacer `assets/img/logo-placeholder.svg`.
-- Portrait : déposer `assets/img/portrait.jpg` et l'indiquer dans `about.html` et `fr/a-propos.html`.
-- Couleurs, typo, rayons : bloc `:root` en tête de `assets/css/onconic.css`.
-- Lien LinkedIn : `about.html` et `fr/a-propos.html`.
+Reprise du « Onconic Brand Design » (claude.ai) : navy #001B4D, accent ambre #F0B12B (bouton principal, filets, focus, jamais en grand aplat), Helvetica Neue, angles droits, pas d'ombre. Tous les tokens sont dans le bloc `:root` de `assets/css/onconic.css`.
+
+- Logos : `assets/img/` (`logo-full-*`, `mark-on-*`, `wordmark-on-*`). La marque abeille n'est jamais suivie de ONCONIC tapé au clavier : toujours le fichier wordmark.
+- Portrait : `assets/img/portrait.jpg` (900×1200, 3:4).
+- Police : les fichiers Helvetica Neue ne sont pas publiés (licence desktop, pas web). Mac/iPhone/iPad l'affichent nativement, Windows/Android retombent sur Helvetica/Arial. Pour un rendu identique partout : licence web (Linotype/Monotype) ou police libre proche.
+- Lien LinkedIn à vérifier : `about.html` et `fr/a-propos.html`.
