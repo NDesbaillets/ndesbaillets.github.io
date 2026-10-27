@@ -49,4 +49,3 @@ Reprise du « Onconic Brand Design » (claude.ai) : navy #001B4D, accent ambre #
 - Logos : `assets/img/` (`logo-full-*`, `mark-on-*`, `wordmark-on-*`). La marque abeille n'est jamais suivie de ONCONIC tapé au clavier : toujours le fichier wordmark.
 - Portrait : `assets/img/portrait.jpg` (900×1200, 3:4).
 - Police : les fichiers Helvetica Neue ne sont pas publiés (licence desktop, pas web). Mac/iPhone/iPad l'affichent nativement, Windows/Android retombent sur Helvetica/Arial. Pour un rendu identique partout : licence web (Linotype/Monotype) ou police libre proche.
-- Lien LinkedIn à vérifier : `about.html` et `fr/a-propos.html`.
