@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Portrait">
+  <!-- PROVISOIRE : remplacer par assets/img/portrait.jpg -->
+  <rect width="400" height="500" fill="#fbf1d9"/>
+  <circle cx="200" cy="190" r="80" fill="#e0a526" opacity=".5"/>
+  <rect x="90" y="300" width="220" height="200" rx="110" fill="#e0a526" opacity=".5"/>
+</svg>
